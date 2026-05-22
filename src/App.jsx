@@ -176,7 +176,7 @@ function HeroSection() {
       <div style={{ position:"absolute", width:600, height:600, borderRadius:"50%", top:-200, right:-200, background:`radial-gradient(circle,${ACCENT}12 0%,transparent 70%)`, pointerEvents:"none" }}/>
       <div style={{ position:"absolute", width:400, height:400, borderRadius:"50%", bottom:-100, left:-100, background:`radial-gradient(circle,${ACCENT2}12 0%,transparent 70%)`, pointerEvents:"none" }}/>
 
-      <div style={{ position: "relative", zIndex: 1, maxWidth: 720, display:"flex", alignItems:"center", gap:40, textAlign:"left", flexWrap:"wrap", justifyContent:"center" }}>
+      <div className="hero-wrapper" style={{ position: "relative", zIndex: 1, maxWidth: 900, display:"flex", alignItems:"center", gap:60, textAlign:"left" }}>
 
   {/* Foto Profil */}
   <div style={{ flexShrink:0 }}>
@@ -586,6 +586,11 @@ export default function App() {
         a{transition:opacity 0.3s;}
         a:hover{opacity:0.8;}
         @media(max-width:900px){
+        .hero-wrapper {
+         flex-direction: column !important;
+         text-align: center !important;
+         gap: 32px !important;
+        }
           nav ul{display:none !important;}
           #ham-btn{display:flex !important;}
           .two-col,.three-col{grid-template-columns:1fr !important;gap:48px !important;}
