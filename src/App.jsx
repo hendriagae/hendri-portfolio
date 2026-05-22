@@ -176,12 +176,12 @@ function HeroSection() {
       <div style={{ position:"absolute", width:600, height:600, borderRadius:"50%", top:-200, right:-200, background:`radial-gradient(circle,${ACCENT}12 0%,transparent 70%)`, pointerEvents:"none" }}/>
       <div style={{ position:"absolute", width:400, height:400, borderRadius:"50%", bottom:-100, left:-100, background:`radial-gradient(circle,${ACCENT2}12 0%,transparent 70%)`, pointerEvents:"none" }}/>
 
-      <div style={{ position: "relative", zIndex: 1, maxWidth: 720, display:"flex", alignItems:"center", gap:60, textAlign:"left" }}>
+      <div style={{ position: "relative", zIndex: 1, maxWidth: 720, display:"flex", alignItems:"center", gap:40, textAlign:"left", flexWrap:"wrap", justifyContent:"center" }}>
 
   {/* Foto Profil */}
   <div style={{ flexShrink:0 }}>
     <div style={{
-      width: 200, height: 200, borderRadius: "50%",
+      width: 160, height: 160, borderRadius: "50%",
       border: `3px solid ${ACCENT}`,
       overflow: "hidden", flexShrink: 0,
       boxShadow: `0 0 40px ${ACCENT}30`,
@@ -194,7 +194,7 @@ function HeroSection() {
   {/* Konten */}
   <div>
         <p style={{ fontFamily:"'Poppins',sans-serif", fontSize:13, color:ACCENT, letterSpacing:4, textTransform:"uppercase", marginBottom:20, fontWeight:600 }}>Halo, saya</p>
-        <h1 style={{ fontFamily:"'Poppins',sans-serif", fontWeight:800, fontSize:"clamp(3rem,8vw,5.5rem)", lineHeight:1.05, color:"#fff", margin:"0 0 20px", letterSpacing:-1 }}>
+        <h1 style={{ fontFamily:"'Poppins',sans-serif", fontWeight:800, fontSize:"clamp(2rem,8vw,5.5rem)", lineHeight:1.05, color:"#fff", margin:"0 0 20px", letterSpacing:-1 }}>
           {DATA.name}
         </h1>
         <p style={{ fontFamily:"'Poppins',sans-serif", fontSize:"clamp(1rem,3vw,1.4rem)", color:"rgba(255,255,255,0.45)", margin:"0 0 14px", letterSpacing:0.5 }}>
