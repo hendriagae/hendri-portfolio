@@ -37,7 +37,7 @@ const DATA = {
     { year: "2004 – 2009", school: "SDN 10 Babahrot", major: "" },
   ],
   experience: [
-    { year: "2024 – Sekarang", role: "Operator Sekolah", company: "SMA Negeri 7 Aceh Barat Daya", location: "Aceh Barat Daya", desc: "Pengelolaan sistem informasi dan administrasi digital sekolah." },
+    { year: "2026 – Sekarang", role: "Operator Sekolah", company: "SMA Negeri 7 Aceh Barat Daya", location: "Aceh Barat Daya", desc: "Pengelolaan sistem informasi dan administrasi digital sekolah." },
     { year: "2022 – 2024", role: "Guru Pengajar ICT", company: "Al Lathif Islamic School", location: "Kota Bandung, Jawa Barat", desc: "Mengajar mata pelajaran Information & Communication Technology (ICT)." },
     { year: "2019 – 2024", role: "Administrasi Keuangan", company: "Yayasan Noor Rakhmah", location: "Kota Bandung, Jawa Barat", desc: "Pengelolaan keuangan yayasan, CMS dan Smart Billing Bank Syariah Indonesia." },
     { year: "2021 – 2023", role: "Freelance Video Editing & Desain", company: "Hexagon Inc.", location: "Kota Cimahi, Jawa Barat", desc: "Produksi konten visual dan editing video untuk berbagai klien." },
