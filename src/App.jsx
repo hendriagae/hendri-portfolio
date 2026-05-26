@@ -541,7 +541,7 @@ function ContactSection() {
 
       {/* Footer */}
       <div style={{ maxWidth:1100,margin:"80px auto 0",paddingTop:28,borderTop:"1px solid rgba(255,255,255,0.05)",display:"flex",justifyContent:"space-between",alignItems:"center",flexWrap:"wrap",gap:12 }}>
-        <p style={{ fontFamily:"'Poppins',sans-serif",fontSize:12,color:"rgba(255,255,255,0.2)",margin:0 }}>© 2026 Hendri Erida. All rights reserved.</p> 
+      <p style={{ fontFamily:"'Poppins',sans-serif",fontSize:12,color:"rgba(255,255,255,0.2)",margin:0 }}>© {new Date().getFullYear()} Hendri Erida. All rights reserved.</p> 
       </div>
     </section>
   );
